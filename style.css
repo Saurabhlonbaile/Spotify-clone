@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Varela+Round&display=swap');
+body{
+    background-color:antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Varela Round', sans-serif; /*font family*/
+
+}
+nav ul{
+    display: flex;
+    list-style-type: none; 
+    height: 65px;
+    background-color: black; 
+    color:white;       /*color for spotify*/
+
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 44px; /* logo size*/
+    padding: 0 8px;
+}  
+.brand{ 
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: darkred;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;  /* for decrease the pixel of bg image */ 
+    background-position: center; /* for bg image shows in center */ 
+    background-size: cover;  /* for bg image cover the container */ 
+
+}
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex; /* song for progress shows in center */ 
+    justify-content: center;/* song for progress shows in center */ 
+    align-items: center;/* song for progress shows in center */ 
+    flex-direction: column;
+
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+
+}
+.songItem img{
+    width: 42px;
+    margin: 0 23px;
+    border-radius: 34px; /* for cover image allignment */ 
+
+}
+.timestamp{
+    margin: 0 23px;
+   
+}
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 9vw;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}

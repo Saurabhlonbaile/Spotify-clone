@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your playlist here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>about</li>
+        </ul>
+    </nav>
+    <div class="container">
+        
+        <div class="songList">
+            <h1>Best of Saurabh - No Copyrights Sound</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Tere Hawale</span>
+                    <span class="songlistPlay"><span class="timestamp">05.50  <i id="0" class="fa-light songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Phir Na Aisi Raat Aayegi</span>
+                    <span class="songlistPlay"><span class="timestamp">04.45  <i id="1" class="fa-light songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Maan Meri Jaan</span>
+                    <span class="songlistPlay"><span class="timestamp">03.14  <i id="2" class="fa-light songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Natarang-Ubha</span>
+                    <span class="songlistPlay"><span class="timestamp">04.19  <i id="3" class="fa-light songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Phero-Na-Najariya</span>
+                    <span class="songlistPlay"><span class="timestamp">03.59 <i id="4" class="fa-light songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Shauq-Hai-bada</span>
+                    <span class="songlistPlay"><span class="timestamp">03.38 <i id="5" class="fa-light songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img  alt="1">
+                    <span class="songName">Tere Naina</span>
+                    <span class="songlistPlay"><span class="timestamp">04.18  <i id="6" class="fa-light songItemPlay fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">  <!--Position Element-->
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+        <!--Fontawesome icon-->
+           <i id="1" class="fa-solid fa-2x fa-backward-step" id="previous"></i>
+           <i id="1" class="fa-light fa-2x fa-circle-play" id="masterPlay"></i>
+           <i id="1" class="fa-solid fa-2x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="next.gif" width="42px" alt="" id="gif"><span id="masterSongName">"Tere Hawale"</span>
+
+
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/59a0ffa10f.js" crossorigin="anonymous"></script>
+    
+    
+</body>
+</html>
+
+
